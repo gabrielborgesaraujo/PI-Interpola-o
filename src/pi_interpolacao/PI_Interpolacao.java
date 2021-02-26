@@ -145,6 +145,7 @@ public class PI_Interpolacao {
                 matrizGreen[i+1][j+1]=((matrizGreen[h][w]+matrizGreen[h][w+1]+matrizGreen[h+1][w]+matrizGreen[h+1][w+1])/4)%256;
                 matrizGreen[i+1][j+2]=((matrizGreen[h][w+1]+matrizGreen[h+2][w+2])/2)%256;
                 matrizGreen[i+2][j+1]=((matrizGreen[h+2][w]+matrizGreen[h+2][w+2])/2)%256;
+                matrizRed[i][j+1]=((matrizRed[h][w]+matrizRed[h][w+1])/2)%256;
                 matrizRed[i+1][j]=((matrizRed[h][w]+matrizRed[h+1][w])/2)%256;
                 matrizRed[i+1][j+1]=((matrizRed[h][w]+matrizRed[h][w+1]+matrizRed[h+1][w]+matrizRed[h+1][w+1])/4)%256;
                 matrizRed[i+1][j+2]=((matrizRed[h][w+1]+matrizRed[h+2][w+2])/2)%256;
